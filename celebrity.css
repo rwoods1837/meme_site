@@ -1,0 +1,48 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 7px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 65px
+  margin: 0;
+  text-shadow: 2px 2px #ffffff;
+}
+
+p{
+  color: #000000;
+  font-size: 25px;
+  line-height: 1.5;
+  text-shadow: 2px 2px #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("img/loss.png");
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 8000px;
+  width: 8000px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}

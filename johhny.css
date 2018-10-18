@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.gif-container {
+  background-image: url("img/johhnydance.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+
+}

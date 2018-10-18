@@ -1,0 +1,33 @@
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 170px;
+  font-style: italic;
+  color: #ffffff;
+
+}
+
+.container {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("img/moth2.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 8000px;
+  width: 8000px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
