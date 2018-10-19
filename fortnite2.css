@@ -70,3 +70,9 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+
+
+h1{
+text-align: center;
+color: #ff0000;
+}
