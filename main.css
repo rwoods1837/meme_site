@@ -67,3 +67,18 @@ tr {
     transform: translate3d(-1692px, 0, 0);
   }
 }
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
