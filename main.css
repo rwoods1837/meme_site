@@ -69,16 +69,16 @@ tr {
 }
 
 a:link {
-    color: red;
+    color: #ff0000;
 }
 
 a:visited {
-    color: red;
+    color: #ff0000;
 }
 
 a:hover {
-    color: red;
+    color: #ff0000;
 }
 
 a:active {
-    color: red;
+    color: #ff0000;
